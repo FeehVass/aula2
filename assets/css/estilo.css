@@ -16,21 +16,28 @@ a:hover{
 }
 .menu{
     background-color: #DCDCDC;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.menu > ul > li:last-child{
+    font-weight: bold;
 }
 .menu li{
     display: inline;
-    padding-left: 12px;
+    padding-left: 80px;
 }
 .menu img{
-    width: 120px;
+    width: 70px;
 }
 .estilo-imagem{
-    border: solid #525151 4px;
-    border-radius: 100px;
+    border: solid #2e2c2c 4px;
+    border-radius: 110px;
 }
 .banner > h1{
     font-family: 'Bangers', cursive;
-    font-size: 50px;
+    font-size: 55px;
     text-align: center;
     color: rgb(247, 232, 232);
     -webkit-text-stroke-width: 2px;
@@ -38,6 +45,10 @@ a:hover{
 }
 .banner > p{
     text-align: center;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    padding: 10px 0 10px 0;
 }
 .banner{
     padding-top: 170px;
@@ -45,10 +56,51 @@ a:hover{
     background-image: url("../imagens/fundoboteco.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 50px;
+    margin-bottom: -15px;
     margin-top: -15px;
 }
+#receita-pastel{
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    padding: 30px 0 30px 25px;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    background-color: rgb(255, 244, 239);
+}
+.sobrepastel{
+    padding-left: 20px;
+}
+.container-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(146, 54, 17, 0.068);
+    padding-top: 30px;
+    margin-bottom: -16px;
+}
+aside p{
+    text-align: center;
+}
+article p{
+    padding-left: 20px;
+    background-color: rgba(146, 54, 17, 0.068);
+    padding: 10px 0 30px 0;
+}
 footer{
-    background-color:#aca9a9;
+    background-color:#c9c4c4d0;
     margin-bottom: -10px; 
+}
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2px;
+    padding-bottom: 10px 0 10px 0;
+    margin-top: -16px;
+}
+.rodape > div > ol > li:first-child{
+    font-weight: bold;
 }
